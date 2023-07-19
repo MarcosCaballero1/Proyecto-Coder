@@ -269,7 +269,7 @@ h3{
     height: 40px;
     overflow: auto;
 }
-/* -------------Equipo----------- */
+/* -------------Novedades----------- */
 .body-novedades{
     width: 100%;
     background-image: url(../img/1.jpg);
@@ -313,11 +313,12 @@ h3{
     margin-left: 48%;
 }
 
-/* -------------Diseño Responsive----------- */
+                        /* -------------Diseño Responsive Mobile----------- */
 
 @media (min-width: 320px) and (max-width: 480px){
 
 /*---------------index ----------------*/
+
 .grid-item2{
     width: 100%;
 }
@@ -467,4 +468,285 @@ main{
     height: 40px;
     overflow: auto;
 }
+/*---------------Logros----------------*/
+.curry{
+    display: none;
+}
+
+.contenido-logros{
+    height: 10vh;
+    margin-left: 60px;
+    margin-top: 5%;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    grid-template-rows: repeat(1, 200px);
+    gap: 250px;
+}
+
+.footer{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#logo_logros{
+    margin-top: 770px;
+    margin-left: 10px;
+    resize: both;
+    width: 40px;
+    height: 40px;
+    overflow: auto;
+}
+/*---------------Equipo----------------*/
+
+.warriors{
+    display: none;
+}
+
+.botones-equipo{
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 17%;
+}
+
+.div-equipo{
+    margin-top: 200px;
+    color: white;
+    margin-left: 8%;
+    height: 10vh;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: repeat(1, 200px);
+    align-content: center;
+    gap: 50px;
+}
+.texto2-equipo{
+    display: none;
+}
+
+.golden{
+    resize: both;
+    width: 400px;
+    height: 230px;
+    overflow: auto;
+}
+
+.texto3-equipo{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#localizacion{
+    margin-right: 10px;
+}
+
+#logo_equipo{
+    margin-top: 250px;
+    margin-left: 10px;
+    resize: both;
+    width: 40px;
+    height: 40px;
+    overflow: auto;
+}
+/* -------------Novedades----------- */
+
+.body-novedades{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.novedades{
+    margin-top: 30%;
+    margin-bottom: 40%;
+}
+
+.input1{
+    margin-top: 10%;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.input{
+    margin-top: 1%;
+    margin-left: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+#reset{
+    margin-left: 40%;
+}
+
+.botones-novedades{
+    margin-top: 2%;
+    margin-left: 18%;
+}
+}
+
+                         /* -------------Diseño Responsive Tablet----------- */
+@media (min-width: 600px) and (max-width: 1200px){
+/* -------------Index----------- */
+
+.grid-navbar{
+    font-size: 0.8rem;
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: repeat(1, 5vh);
+    align-items: center;
+}
+
+.ul-navbar{
+    text-align: center;
+}
+
+.usuario{
+    resize: both;
+    width: 20%;
+    height: 20%;
+    overflow: auto;
+}
+
+.logo1{
+    resize: both;
+    width: 25px;
+    height: 25px;
+    overflow: auto;
+}
+
+.texto{
+    column-gap: 100px;
+}
+
+/* -------------Carrera----------- */
+.steph{
+    font-size: 3rem;
+}
+
+#logo_carrera{
+    margin-top: 37%;
+    margin-left: 100%;
+}
+
+.texto-carrera{
+    margin-top: 30%;
+    margin-left: 5%;
+    height: 1vh;
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 100px);
+    align-content: center;
+    gap: 30%;
+}
+
+.texto2-carrera{
+    display: none;
+}
+
+.texto3-carrera{
+    display: none;
+}
+
+#actualidad{
+    margin-left: 10%;
+}
+
+#boton_c{
+    background-color: rgb(246, 246, 247);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 4px;
+    font-size: 12px;
+}
+
+.footer{
+    width: 100%;
+}
+/* -------------Logros----------- */
+.curry{
+    font-size: 3rem;
+}
+#mejor_triplista{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contenido-logros{
+    height: 10vh;
+    margin-left: 5%;
+    margin-top: 0%;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 10%;
+}
+#h3_logros{
+    text-align: center;
+    width: 100%;
+}
+#logo_logros{
+    margin-left: 90%;
+    margin-top: 57%;
+}
+.footer{
+    width: 100%;
+}
+/* -------------Equipo----------- */
+#warriors{
+    margin-top: 0%;
+    font-size: 2rem;
+    text-align: center;
+}
+.contenido{
+    margin-top: 3%;
+}
+.div-equipo{
+    margin-top: 50%;
+    color: white;
+    margin-left: 5%;
+    height: 10vh;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    align-content: center;
+    gap: 1%;
+}
+.warriors{
+    font-size: 2rem;
+}
+#logo_equipo{
+    margin-left: 10%;
+    margin-top: 37%;
+}
+.titulo-carrera{
+    width: 30%;
+    height: 100%;
+}
+.golden{
+    resize: both;
+    width: 450px;
+    height: 230px;
+    overflow: auto;
+}
+.texto2-equipo{
+    margin-top: 20%;
+}
+/* -------------Novedades----------- */
+.footer-novedades{
+    margin-top: 20%;
+}
+
+
 }
