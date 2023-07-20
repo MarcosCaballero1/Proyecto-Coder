@@ -1,0 +1,215 @@
+.body-carrera{
+    background-color: rgb(83, 83, 83);
+    height: 100vh;
+    .contenido-actualidad{
+        display: inline;
+        display: flex;
+        flex-direction: row;
+        .titulo-carrera{
+            background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../img/6.jpg);
+            background-size: cover;
+            width: 30%;
+            height: 100vh;
+            text-align: center;
+            padding-top: 50px;
+        #titulo_carrera{
+                font-size: 30px;
+        }
+        .warriors{
+            font-size: 2.3rem;
+        }
+        .botones-equipo{
+            text-align: start;
+            margin-top: 10px;
+            margin-left: 10px;
+            #boton_c{
+                background-color: rgb(246, 246, 247);
+                border: 1px solid black;
+                border-radius: 5px;
+                padding: 5px 10px;
+                text-decoration: none;
+                color: black;
+            }
+        }
+        }
+        .contenido{
+            #warriors{
+                font-size: 45px;
+            }
+            .div-equipo{
+                margin-top: 200px;
+                color: white;
+                margin-left: 160px;
+                height: 10vh;
+                width: 70%;
+                display: grid;
+                grid-template-columns: repeat(2, 300px);
+                grid-template-rows: repeat(2, 200px);
+                align-content: center;
+                gap: 50px;
+                .texto1-equipo{
+                    grid-column: span 2;
+                    margin-right: 100px;
+                    .golden{
+                        resize: both;
+                        width: 600px;
+                        height: 300px;
+                        overflow: auto;
+                    }
+                }
+                .texto2-equipo{
+                    margin-top: 80px;
+                }
+                .texto3-equipo{
+                    margin-top: 50px;
+                    margin-left: 50px;
+                    #localizacion{
+                        margin-right: 50px;
+                    }
+                }
+            }
+            #logo_equipo{
+                margin-top: 215px;
+                margin-left: 870px;
+                resize: both;
+                width: 40px;
+                height: 40px;
+                overflow: auto;
+            }
+        }
+    }
+}
+                            /* -------------Diseño Responsive Mobile----------- */
+@media (min-width: 320px) and (max-width: 480px){
+.body-carrera{
+    background-color: rgb(83, 83, 83);
+    height: 10vh;
+    width: 100%;
+    .contenido-actualidad{
+        display: inline;
+        display: flex;
+        flex-direction: column;
+        .titulo-carrera{
+            background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../img/6.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            #titulo_carrera{
+                margin-top: 10%;
+                font-size: 3rem;
+            }
+        .warriors{
+            display: none;
+        }
+        .botones-equipo{
+            text-align: start;
+            margin-top: 10px;
+            margin-left: 15%;
+        }
+        }
+        .contenido{
+            .div-equipo{
+                margin-top: 200px;
+                color: white;
+                margin-left: 8%;
+                height: 10vh;
+                width: 70%;
+                display: grid;
+                grid-template-columns: repeat(1, 300px);
+                grid-template-rows: repeat(1, 200px);
+                align-content: center;
+                gap: 50px;
+                .texto1-equipo{
+                    #golden{
+                        resize: both;
+                        width: 200px;
+                        height: 150px;
+                        overflow: auto;
+                    }
+                }
+                .texto2-equipo{
+                    display: none;
+                }
+                .texto3-equipo{
+                    margin-top: 50px;
+                    margin-left: 100px;
+                    #localizacion{
+                        margin-right: 10px;
+                    }
+                }
+            }
+            #logo_equipo{
+                margin-top: 250px;
+                margin-left: 10px;
+                resize: both;
+                width: 40px;
+                height: 40px;
+                overflow: auto;
+            }
+        }
+    }
+}
+}
+                         /* -------------Diseño Responsive Tablet----------- */
+@media (min-width: 600px) and (max-width: 1200px){
+.body-carrera{
+    .contenido-actualidad{
+        .titulo-carrera{
+            width: 30%;
+            height: 100%;
+            .warriors{
+                font-size: 2rem;
+            }
+            .botones-equipo{
+                #boton_c{
+                    background-color: rgb(246, 246, 247);
+                    border: 1px solid black;
+                    border-radius: 5px;
+                    padding: 2px 4px;
+                    font-size: 12px;
+                }
+            }
+        }
+        .contenido{
+            margin-top: 3%;
+            #warriors{
+                margin-top: 0%;
+                font-size: 2rem;
+                text-align: center;
+            }
+            .div-equipo{
+                margin-top: 50%;
+                color: white;
+                margin-left: 5%;
+                height: 10vh;
+                width: 70%;
+                display: grid;
+                grid-template-columns: repeat(2, 200px);
+                grid-template-rows: repeat(2, 200px);
+                align-content: center;
+                gap: 1%;
+                .texto1-equipo{
+                    .golden{
+                        resize: both;
+                        width: 450px;
+                        height: 230px;
+                        overflow: auto;
+                    }
+                }
+                .texto2-equipo{
+                    margin-top: 20%;
+                }
+            }
+            #logo_logros{
+                margin-left: 90%;
+                margin-top: 56%;
+            }
+            #logo_equipo{
+                margin-left: 10%;
+                margin-top: 37%;
+            }
+        }
+    }
+}
+}

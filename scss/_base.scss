@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin navbar-index--desktop{
+    margin-left: 5px;
+    background-color: white;
+    height: 3vw;
+    width: 100%;
+}
+@mixin logo1-index--desktop{
+    resize: both;
+    width: 40px;
+    height: 40px;
+    overflow: auto;
+}
+@mixin usuario-index--desktop{
+    resize: both;
+    width: 10%;
+    height: 10%;
+    overflow: auto;
+}

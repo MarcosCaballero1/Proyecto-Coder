@@ -1,0 +1,180 @@
+.body-logros{
+    background-color: rgb(83, 83, 83);
+    height: 100vh;
+    .contenido-actualidad{
+        display: inline;
+        display: flex;
+        flex-direction: row;
+        .titulo-carrera{
+            background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../img/6.jpg);
+            background-size: cover;
+            width: 30%;
+            height: 100vh;
+            text-align: center;
+            padding-top: 50px;
+        #titulo_carrera{
+                font-size: 30px;
+        }
+        .curry{
+            font-size: 3.75rem;
+        }
+        .botones{
+            text-align: start;
+            margin-left: 10px;
+            #boton_c{
+                background-color: rgb(246, 246, 247);
+                border: 1px solid black;
+                border-radius: 5px;
+                padding: 5px 10px;
+                text-decoration: none;
+                color: black;
+            }
+        }
+        }
+    }
+    .contenido{
+        text-align: center;
+        margin-top: 50px;
+        #mejor_triplista{
+            font-size: 2.5rem;
+        }
+        .contenido-logros{
+            height: 10vh;
+            margin-left: 60px;
+            margin-top: 60px;
+            color: white;
+            display: grid;
+            grid-template-columns: repeat(2, 200px);
+            grid-template-rows: repeat(2, 200px);
+            gap: 250px;
+            #h3_logros{
+                width: 350px;
+            }
+            h3{
+                color: black;
+            }
+        }
+        #logo_carrera{
+            margin-top: 150px;
+            margin-left: 870px;
+            resize: both;
+            width: 40px;
+            height: 40px;
+            overflow: auto;
+    }
+    #logo_logros{
+        margin-top: 360px;
+        margin-left: 870px;
+        resize: both;
+        width: 40px;
+        height: 40px;
+        overflow: auto;
+    }
+    }
+}
+                            /* -------------Diseño Responsive Mobile----------- */
+@media (min-width: 320px) and (max-width: 480px){
+.body-logros{
+    background-color: rgb(83, 83, 83);
+    height: 10vh;
+    width: 100%;
+    .contenido-actualidad{
+        display: inline;
+        display: flex;
+        flex-direction: column;
+        .titulo-carrera{
+            background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../img/6.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            #titulo_carrera{
+                margin-top: 5%;
+                font-size: 3rem;
+            }
+        .curry{
+            display: none;
+        }
+        .botones{
+            margin-left: 15%;
+        }
+        }
+        .contenido-logros{
+            height: 10vh;
+            margin-left: 10%;
+            margin-top: 5%;
+            color: white;
+            display: grid;
+            grid-template-columns: repeat(1, 200px);
+            grid-template-rows: repeat(1, 200px);
+            gap: 30vh;
+        }
+        #logo_logros{
+            margin-top: 770px;
+            margin-left: 10px;
+            resize: both;
+            width: 40px;
+            height: 40px;
+            overflow: auto;
+        }
+    }
+}
+.footer{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+}
+                            /* -------------Diseño Responsive Tablet----------- */
+@media (min-width: 600px) and (max-width: 1200px){
+.body-logros{
+    .contenido-actualidad{
+        .titulo-carrera{
+            .curry{
+                font-size: 3rem;
+            }
+            .botones{
+                #boton_c{
+                    background-color: rgb(246, 246, 247);
+                    border: 1px solid black;
+                    border-radius: 5px;
+                    padding: 2px 4px;
+                    font-size: 12px;
+                }
+            }
+        }
+        .contenido{
+            #mejor_triplista{
+                font-size: 2rem;
+                margin-left: 10%;
+            }
+            .contenido-logros{
+                height: 10vh;
+                margin-left: 5%;
+                margin-top: 0%;
+                color: white;
+                display: grid;
+                grid-template-columns: repeat(2, 200px);
+                grid-template-rows: repeat(2, 200px);
+                gap: 10%;
+                #h3_logros{
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+            #logo_logros{
+                margin-left: 90%;
+                margin-top: 56%;
+            }
+        }
+    }
+}
+.footer{
+    width: 100%;
+}
+}
+
+

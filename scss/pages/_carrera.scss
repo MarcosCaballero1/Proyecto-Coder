@@ -1,0 +1,200 @@
+.body-carrera{
+    background-color: rgb(83, 83, 83);
+    height: 100vh;
+    .contenido-actualidad{
+        display: inline;
+        display: flex;
+        flex-direction: row;
+        .titulo-carrera{
+            background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../img/6.jpg);
+            background-size: cover;
+            width: 30%;
+            height: 100vh;
+            text-align: center;
+            padding-top: 50px;
+        #titulo_carrera{
+                font-size: 30px;
+        }
+        .steph{
+            font-size: 3.75rem;
+        }
+        .botones{
+            text-align: start;
+            margin-left: 10px;
+            #boton_c{
+                background-color: rgb(246, 246, 247);
+                border: 1px solid black;
+                border-radius: 5px;
+                padding: 5px 10px;
+                text-decoration: none;
+                color: black;
+            }
+        }
+        }
+    }
+}
+.contenido{
+    text-align: center;
+    margin-top: 50px;
+    #actualidad{
+        font-size: 60px;
+        margin-left: 80px;
+    }
+    .texto-carrera{
+        margin-top: 250px;
+        color: white;
+        margin-left: 180px;
+        height: 10vh;
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(2, 200px);
+        align-content: center;
+        gap: 50px;
+        .texto1-carrera{
+            grid-column: span 2;
+        }
+    }
+    #logo_carrera{
+        margin-top: 150px;
+        margin-left: 870px;
+        resize: both;
+        width: 40px;
+        height: 40px;
+        overflow: auto;
+}
+}
+                            /* -------------Diseño Responsive Mobile----------- */
+@media (min-width: 320px) and (max-width: 480px){
+.body-carrera{
+    background-color: rgb(83, 83, 83);
+    height: 10vh;
+    width: 100%;
+    .contenido-actualidad{
+        display: inline;
+        display: flex;
+        flex-direction: column;
+        .titulo-carrera{
+            background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../img/6.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            #titulo_carrera{
+                margin-top: 10%;
+                font-size: 3rem;
+            }
+        .steph{
+            display: none;
+        }
+        .botones{
+            margin-left: 18%;
+        }
+        }
+    }
+}
+.contenido{
+    margin-top: 5%;
+        #actualidad{
+            font-size: 2rem;
+            margin-left: 0;
+        }
+        .texto-carrera{
+            color: white;
+            margin-top: 30%;
+            margin-left: 10%;
+            height: 90%;
+            width: 80%;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(1, 1fr);
+            .texto2-carrera{
+                display: none;
+            }
+            .texto3-carrera{
+                display: none;
+            }
+        }
+        #logo_carrera{
+            margin-top: 10%;
+            margin-left: 0%;
+            resize: both;
+            width: 40px;
+            height: 40px;
+            overflow: auto;
+        }
+    }
+}
+                            /* -------------Diseño Responsive Tablet----------- */
+@media (min-width: 600px) and (max-width: 1200px){
+.body-carrera{
+    background-color: rgb(83, 83, 83);
+    height: 10vh;
+    width: 100%;
+    .contenido-actualidad{
+        display: inline;
+        display: flex;
+        flex-direction: column;
+        .titulo-carrera{
+            background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../img/6.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            #titulo_carrera{
+                margin-top: 10%;
+                font-size: 3rem;
+            }
+        .steph{
+            font-size: 3rem;
+        }
+        .botones{
+            #boton_c{
+                background-color: rgb(246, 246, 247);
+                border: 1px solid black;
+                border-radius: 5px;
+                padding: 2px 4px;
+                font-size: 12px;
+            }
+        }
+        }
+    }
+}
+    #logo_carrera{
+        margin-top: 37%;
+        margin-left: 100%;
+    }
+.contenido{
+    #actualidad{
+        text-align: center;
+    }
+    .texto-carrera{
+        margin-top: 30%;
+        margin-left: 5%;
+        height: 1vh;
+        width: 40%;
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        grid-template-rows: repeat(2, 100px);
+        align-content: center;
+        gap: 30%;
+        .texto2-carrera{
+            display: none;
+        }
+        .texto3-carrera{
+            display: none;
+        }
+    }
+    #logo_carrera{
+        margin-top: 10%;
+        margin-left: 0%;
+        resize: both;
+        width: 40px;
+        height: 40px;
+        overflow: auto;
+    }
+}
+.footer{
+    width: 100%;
+}
+}

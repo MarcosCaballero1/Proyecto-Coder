@@ -1,0 +1,90 @@
+.body-novedades{
+    width: 100%;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .novedades{
+        margin-top: 5%;
+        text-align: center;
+        .color-n{
+            color: white;
+        }
+    }
+    .input1{
+        margin-top: 5%;
+        margin-left: 44%;
+        display: flex;
+        flex-direction: row;
+    }
+    .input{
+        margin-top: 1%;
+        margin-left: 44%;
+        display: flex;
+        flex-direction: row;
+    }
+    #reset{
+        margin-left: 48%;
+    }
+}
+.botones-novedades{
+    margin-top: 2%;
+    margin-left: 39%;
+    #boton_c{
+        background-color: rgb(246, 246, 247);
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: black;
+    }
+}
+.footer-novedades{
+    margin-top: 13%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-color: black;
+}
+                            /* -------------Diseño Responsive Mobile----------- */
+@media (min-width: 320px) and (max-width: 480px){
+.body-novedades{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .novedades{
+        margin-top: 30%;
+        margin-bottom: 40%;
+    }
+    .input1{
+        margin-top: 10%;
+        margin-left: 30%;
+        display: flex;
+        flex-direction: row;
+    }
+    .input{
+        margin-top: 1%;
+        margin-left: 30%;
+        display: flex;
+        flex-direction: row;
+    }
+    #reset{
+        margin-left: 40%;
+    }
+}
+.botones-novedades{
+    margin-top: 2%;
+    margin-left: 18%;
+}
+}
+                             /* -------------Diseño Responsive Tablet----------- */
+@media (min-width: 600px) and (max-width: 1200px){
+.footer-novedades{
+    margin-top: 20%;
+}
+}
