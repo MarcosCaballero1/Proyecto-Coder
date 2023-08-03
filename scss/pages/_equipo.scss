@@ -35,6 +35,7 @@
         }
         .contenido{
             #warriors{
+                @include txt-animation1;
                 font-size: 45px;
             }
             .div-equipo{
@@ -52,6 +53,7 @@
                     grid-column: span 2;
                     margin-right: 100px;
                     .golden{
+                        @include txt-animation2;
                         resize: both;
                         width: 600px;
                         height: 300px;
@@ -60,8 +62,10 @@
                 }
                 .texto2-equipo{
                     margin-top: 80px;
+                    @include txt-animation3;
                 }
                 .texto3-equipo{
+                    @include txt-animation3;
                     margin-top: 50px;
                     margin-left: 50px;
                     #localizacion{

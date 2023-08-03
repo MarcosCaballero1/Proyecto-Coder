@@ -42,11 +42,13 @@ main{
     height: 100vh;
     width: 100%;
     .titulos{
+        @include txt-animation1;
         text-shadow: 5px 5px 10px gray;
         text-align: center;
         font-size: 2rem;
     }
     .texto{
+        @include txt-animation2;
         display: grid;
         grid-template-columns:repeat(2,1fr);
         column-gap: 200px;
@@ -180,5 +182,35 @@ main{
     }
     .texto{
         column-gap: 100px;
+    }
+}
+@keyframes una{
+    0%{
+        opacity: 0;
+        transition: scale(2) translateY(75px);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+@keyframes dos{
+    0%{
+        opacity: 0;
+        transition: scale(2) translateY(75px);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+@keyframes tres{
+    0%{
+        opacity: 0;
+        transition: scale(2) translateY(75px);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1) translateY(0);
     }
 }

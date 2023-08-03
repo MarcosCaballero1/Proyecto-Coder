@@ -5,6 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     .novedades{
+        @include txt-animation1;
         margin-top: 5%;
         text-align: center;
         .color-n{
@@ -38,7 +39,8 @@
         text-decoration: none;
         color: black;
     }
-    @include btn-animation
+    @include btn-animation;
+    @include txt-animation2;
 }
 .footer-novedades{
     margin-top: 13%;

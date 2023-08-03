@@ -37,6 +37,7 @@
         text-align: center;
         margin-top: 50px;
         #mejor_triplista{
+            @include txt-animation1;
             font-size: 2.5rem;
         }
         .contenido-logros{
@@ -49,6 +50,7 @@
             grid-template-rows: repeat(2, 200px);
             gap: 250px;
             #h3_logros{
+                @include txt-animation2;
                 width: 350px;
             }
             h3{

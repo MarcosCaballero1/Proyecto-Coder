@@ -50,10 +50,20 @@
   margin-top: 50px;
 }
 .contenido #actualidad {
+  opacity: 0;
+  animation-name: dos;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
   font-size: 60px;
   margin-left: 80px;
 }
 .contenido .texto-carrera {
+  opacity: 0;
+  animation-name: dos;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
   margin-top: 250px;
   color: white;
   margin-left: 180px;
@@ -249,6 +259,11 @@
   color: white;
 }
 .body-carrera .contenido-actualidad .contenido #warriors {
+  opacity: 0;
+  animation-name: dos;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
   font-size: 45px;
 }
 .body-carrera .contenido-actualidad .contenido .div-equipo {
@@ -268,6 +283,11 @@
   margin-right: 100px;
 }
 .body-carrera .contenido-actualidad .contenido .div-equipo .texto1-equipo .golden {
+  opacity: 0;
+  animation-name: dos;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
   resize: both;
   width: 600px;
   height: 300px;
@@ -275,8 +295,18 @@
 }
 .body-carrera .contenido-actualidad .contenido .div-equipo .texto2-equipo {
   margin-top: 80px;
+  opacity: 0;
+  animation-name: tres;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 .body-carrera .contenido-actualidad .contenido .div-equipo .texto3-equipo {
+  opacity: 0;
+  animation-name: tres;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
   margin-top: 50px;
   margin-left: 50px;
 }
@@ -469,11 +499,21 @@ main {
   width: 100%;
 }
 main .titulos {
+  opacity: 0;
+  animation-name: dos;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
   text-shadow: 5px 5px 10px gray;
   text-align: center;
   font-size: 2rem;
 }
 main .texto {
+  opacity: 0;
+  animation-name: dos;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 200px;
@@ -604,6 +644,36 @@ footer a .logo_para_footer {
     column-gap: 100px;
   }
 }
+@keyframes una {
+  0% {
+    opacity: 0;
+    transition: scale(2) translateY(75px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+@keyframes dos {
+  0% {
+    opacity: 0;
+    transition: scale(2) translateY(75px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+@keyframes tres {
+  0% {
+    opacity: 0;
+    transition: scale(2) translateY(75px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
 .body-logros {
   background-color: rgb(83, 83, 83);
   height: 100vh;
@@ -648,6 +718,11 @@ footer a .logo_para_footer {
   margin-top: 50px;
 }
 .body-logros .contenido #mejor_triplista {
+  opacity: 0;
+  animation-name: dos;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
   font-size: 2.5rem;
 }
 .body-logros .contenido .contenido-logros {
@@ -661,6 +736,11 @@ footer a .logo_para_footer {
   gap: 250px;
 }
 .body-logros .contenido .contenido-logros #h3_logros {
+  opacity: 0;
+  animation-name: dos;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
   width: 350px;
 }
 .body-logros .contenido .contenido-logros h3 {
@@ -786,6 +866,11 @@ footer a .logo_para_footer {
   background-repeat: no-repeat;
 }
 .body-novedades .novedades {
+  opacity: 0;
+  animation-name: dos;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
   margin-top: 5%;
   text-align: center;
 }
@@ -811,6 +896,11 @@ footer a .logo_para_footer {
 .botones-novedades {
   margin-top: 2%;
   margin-left: 39%;
+  opacity: 0;
+  animation-name: dos;
+  animation-duration: 1s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
 }
 .botones-novedades #boton_c {
   background-color: rgb(246, 246, 247);
