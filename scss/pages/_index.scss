@@ -85,10 +85,11 @@ header{
         font-size: 1rem;
         align-items: center;
         .logo1{
+            margin-bottom: 2%;
             margin-left: 2%;
             resize: both;
             width: 6vw;
-            height: 5vh;
+            height: 4vh;
             overflow: auto;
         }
         .grid-item2{
@@ -96,6 +97,7 @@ header{
             .ul-navbar{
                 text-align: center;
                 li{
+                    font-size: 0.8rem;
                     width: 100%;
                     display: inline;
                     padding: 1%;

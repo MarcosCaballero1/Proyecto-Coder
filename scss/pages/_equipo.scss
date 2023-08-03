@@ -104,6 +104,7 @@
             display: none;
         }
         .botones-equipo{
+            font-size: 0.8rem;
             text-align: start;
             margin-top: 10px;
             margin-left: 15%;
@@ -111,7 +112,7 @@
         }
         .contenido{
             .div-equipo{
-                margin-top: 200px;
+                margin-top: 250px;
                 color: white;
                 margin-left: 8%;
                 height: 10vh;
@@ -122,10 +123,10 @@
                 align-content: center;
                 gap: 50px;
                 .texto1-equipo{
-                    #golden{
+                    .golden{
                         resize: both;
-                        width: 200px;
-                        height: 150px;
+                        width: 80vw;
+                        height: 35vh;
                         overflow: auto;
                     }
                 }

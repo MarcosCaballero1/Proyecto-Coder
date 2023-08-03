@@ -104,7 +104,8 @@
     display: none;
   }
   .body-carrera .contenido-actualidad .titulo-carrera .botones {
-    margin-left: 18%;
+    font-size: 0.8rem;
+    margin-left: 13%;
   }
   .contenido {
     margin-top: 5%;
@@ -318,12 +319,13 @@
     display: none;
   }
   .body-carrera .contenido-actualidad .titulo-carrera .botones-equipo {
+    font-size: 0.8rem;
     text-align: start;
     margin-top: 10px;
     margin-left: 15%;
   }
   .body-carrera .contenido-actualidad .contenido .div-equipo {
-    margin-top: 200px;
+    margin-top: 250px;
     color: white;
     margin-left: 8%;
     height: 10vh;
@@ -334,10 +336,10 @@
     align-content: center;
     gap: 50px;
   }
-  .body-carrera .contenido-actualidad .contenido .div-equipo .texto1-equipo #golden {
+  .body-carrera .contenido-actualidad .contenido .div-equipo .texto1-equipo .golden {
     resize: both;
-    width: 200px;
-    height: 150px;
+    width: 80vw;
+    height: 35vh;
     overflow: auto;
   }
   .body-carrera .contenido-actualidad .contenido .div-equipo .texto2-equipo {
@@ -511,10 +513,11 @@ footer a .logo_para_footer {
     align-items: center;
   }
   header .grid-navbar .logo1 {
+    margin-bottom: 2%;
     margin-left: 2%;
     resize: both;
     width: 6vw;
-    height: 5vh;
+    height: 4vh;
     overflow: auto;
   }
   header .grid-navbar .grid-item2 {
@@ -524,6 +527,7 @@ footer a .logo_para_footer {
     text-align: center;
   }
   header .grid-navbar .grid-item2 .ul-navbar li {
+    font-size: 0.8rem;
     width: 100%;
     display: inline;
     padding: 1%;
@@ -706,6 +710,7 @@ footer a .logo_para_footer {
     display: none;
   }
   .body-logros .contenido-actualidad .titulo-carrera .botones {
+    font-size: 0.8rem;
     margin-left: 15%;
   }
   .body-logros .contenido-actualidad .contenido-logros {
@@ -860,6 +865,7 @@ footer a .logo_para_footer {
     margin-left: 40%;
   }
   .botones-novedades {
+    font-size: 0.8rem;
     margin-top: 2%;
     margin-left: 18%;
   }
