@@ -16,8 +16,16 @@
     overflow: auto;
 }
 @mixin usuario-index--desktop{
+    margin-top: 5px;
     resize: both;
-    width: 10%;
-    height: 10%;
+    width: 8%;
+    height: 8%;
     overflow: auto;
+}
+
+@mixin btn-animation{
+    #boton_c:hover{
+        background-color: grey;
+        color: white;
+    }
 }

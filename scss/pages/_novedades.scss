@@ -38,6 +38,7 @@
         text-decoration: none;
         color: black;
     }
+    @include btn-animation
 }
 .footer-novedades{
     margin-top: 13%;

@@ -40,6 +40,10 @@
   text-decoration: none;
   color: black;
 }
+.body-carrera .contenido-actualidad .titulo-carrera .botones #boton_c:hover {
+  background-color: grey;
+  color: white;
+}
 
 .contenido {
   text-align: center;
@@ -239,6 +243,10 @@
   text-decoration: none;
   color: black;
 }
+.body-carrera .contenido-actualidad .titulo-carrera .botones-equipo #boton_c:hover {
+  background-color: grey;
+  color: white;
+}
 .body-carrera .contenido-actualidad .contenido #warriors {
   font-size: 45px;
 }
@@ -428,10 +436,15 @@ header .grid-navbar .grid-item3 {
   margin-right: 10px;
 }
 header .grid-navbar .grid-item3 .usuario {
+  margin-top: 5px;
   resize: both;
-  width: 10%;
-  height: 10%;
+  width: 8%;
+  height: 8%;
   overflow: auto;
+}
+header .grid-navbar a:hover {
+  color: rgba(248, 174, 37, 0.822);
+  text-decoration: none;
 }
 header .grid-navbar a {
   color: black;
@@ -498,6 +511,7 @@ footer a .logo_para_footer {
     align-items: center;
   }
   header .grid-navbar .logo1 {
+    margin-left: 2%;
     resize: both;
     width: 6vw;
     height: 5vh;
@@ -515,6 +529,7 @@ footer a .logo_para_footer {
     padding: 1%;
   }
   header .grid-navbar .grid-item3 .usuario {
+    margin-top: 1px;
     resize: both;
     width: 30%;
     height: 20%;
@@ -564,8 +579,8 @@ footer a .logo_para_footer {
   }
   .grid-navbar .logo1 {
     resize: both;
-    width: 25px;
-    height: 25px;
+    width: 6vw;
+    height: 4vh;
     overflow: auto;
   }
   .grid-navbar .grid-item2 {
@@ -619,6 +634,10 @@ footer a .logo_para_footer {
   padding: 5px 10px;
   text-decoration: none;
   color: black;
+}
+.body-logros .contenido-actualidad .titulo-carrera .botones #boton_c:hover {
+  background-color: grey;
+  color: white;
 }
 .body-logros .contenido {
   text-align: center;
@@ -795,6 +814,10 @@ footer a .logo_para_footer {
   padding: 5px 10px;
   text-decoration: none;
   color: black;
+}
+.botones-novedades #boton_c:hover {
+  background-color: grey;
+  color: white;
 }
 
 .footer-novedades {
