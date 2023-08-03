@@ -369,7 +369,7 @@
   .body-carrera .contenido-actualidad .contenido .div-equipo .texto1-equipo .golden {
     resize: both;
     width: 80vw;
-    height: 35vh;
+    height: 30vh;
     overflow: auto;
   }
   .body-carrera .contenido-actualidad .contenido .div-equipo .texto2-equipo {
@@ -377,10 +377,10 @@
   }
   .body-carrera .contenido-actualidad .contenido .div-equipo .texto3-equipo {
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 20%;
   }
   .body-carrera .contenido-actualidad .contenido .div-equipo .texto3-equipo #localizacion {
-    margin-right: 10px;
+    margin-right: 20%;
   }
   .body-carrera .contenido-actualidad .contenido #logo_equipo {
     margin-top: 250px;
@@ -795,7 +795,7 @@ footer a .logo_para_footer {
   }
   .body-logros .contenido-actualidad .contenido-logros {
     height: 10vh;
-    margin-left: 10%;
+    margin-left: 4%;
     margin-top: 5%;
     color: white;
     display: grid;
